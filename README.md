@@ -25,8 +25,10 @@ for further analysis.
 The data here is from an actual exam, although false alliterative names
 and random ID numbers have been swapped out for the students real 
 identification. The student pair "Laronda Labarbera" and "Kathline Keehn"
-shared a remarkable 15 incorrect answers (upper right)! They also happened
+shared a remarkable 100% of their answers(upper right)! They also happened
 to sit next to each other at the back of the class in the same period. 
+
+Curious!
 
 Student pair "Deetta Delpiore" and "Man Mcdevitt" were also caught cheating
 during the exam, although their scores were entered anyways for the sake of
