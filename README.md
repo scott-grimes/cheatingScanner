@@ -34,3 +34,10 @@ Student pair "Deetta Delpiore" and "Man Mcdevitt" were also caught cheating
 during the exam, although their scores were entered anyways for the sake of
 this analysis.
 
+.......................
+
+Note: This is NOT a rigorous statistical analysis. Many factors may 
+confound the results of this program. For example, a well-designed question
+have distractors as solutions which will cause the classes overall shape
+of solutions to be non-normal. This should NOT be used as the sole method 
+for identifying cheaters!
