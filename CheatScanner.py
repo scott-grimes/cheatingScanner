@@ -59,9 +59,9 @@ class SharedAnswers:
                     self.shared_incorrect+=1
         
         #self.label is used for printing our student pair on the graph
-        self.label = '{}/{} : {}\n{}'.format(
-            self.shared_incorrect,
+        self.label = '{},{} : {}\n{}'.format(
             self.shared_correct,
+            self.shared_incorrect,
             self.student1.name,
             self.student2.name)
         
@@ -70,8 +70,8 @@ class SharedAnswers:
         self.export = '{},{},{},{}'.format(
             self.student1.name,
             self.student2.name,
-            self.shared_incorrect,
-            self.shared_correct)
+            self.shared_correct,
+            self.shared_incorrect)
     
 def readInputFile():
     #reads in each row of our file from std.in
@@ -181,7 +181,9 @@ class graphResults():
         #displays the scatterplot of student pairs
         self.ax2.cla()
         self.ax2.scatter(self.corr,self.incorr, color = 'blue',picker = True)
-        self.ax2.title.set_text('Shared Incorrect/Correct Answers')
+        self.ax2.title.set_text('Shared Answers')
+        self.ax2.set_xlabel('Correct')
+        self.ax2.set_ylabel('Incorrect') 
         
     
 
