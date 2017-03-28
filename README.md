@@ -1,5 +1,9 @@
 # cheatingScanner
+
+![Screenshot](screenshot.png?raw=true)
 Finds cheaters in a set of student scantron data
+
+
 
 This program accepts a CSV file in Eduphoria format, and displays
 an interactive scatterplot. Each point on the plot represents the 
